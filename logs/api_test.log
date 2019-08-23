@@ -1,0 +1,1237 @@
+2019-08-14 16:26:01,636 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 16:26:02,296 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:26:02,296 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:02,297 case INFO 用例执行通过
+
+2019-08-14 16:26:02,312 case ERROR 用例执行失败[Errno 13] Permission denied: 'C:\\Users\\cango\\testapi\\datas\\cases.xlsx'
+
+2019-08-14 16:26:02,912 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 16:26:02,913 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:02,914 case INFO 用例执行通过
+
+2019-08-14 16:26:02,929 case ERROR 用例执行失败[Errno 13] Permission denied: 'C:\\Users\\cango\\testapi\\datas\\cases.xlsx'
+
+2019-08-14 16:26:03,305 case INFO {"status":0,"code":"20207","data":null,"msg":"修改失败，当前标已经是该状态"}
+2019-08-14 16:26:03,306 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60945","status":"4"}
+预期结果:10001
+实际结果:20207
+2019-08-14 16:26:03,306 case ERROR 用例执行失败 :: 10001 != 20207
+
+2019-08-14 16:26:03,969 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:26:03,969 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:03,969 case INFO 用例执行通过
+
+2019-08-14 16:26:03,986 case ERROR 用例执行失败[Errno 13] Permission denied: 'C:\\Users\\cango\\testapi\\datas\\cases.xlsx'
+
+2019-08-14 16:26:04,919 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 16:26:04,919 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60945","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:04,919 case INFO 用例执行通过
+
+2019-08-14 16:26:04,940 case ERROR 用例执行失败[Errno 13] Permission denied: 'C:\\Users\\cango\\testapi\\datas\\cases.xlsx'
+
+2019-08-14 16:26:04,961 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 16:26:14,598 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 16:26:15,244 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:26:15,245 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:15,245 case INFO 用例执行通过
+
+2019-08-14 16:26:15,883 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 16:26:15,883 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:15,883 case INFO 用例执行通过
+
+2019-08-14 16:26:16,259 case INFO {"status":0,"code":"20207","data":null,"msg":"修改失败，当前标已经是该状态"}
+2019-08-14 16:26:16,259 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60947","status":"4"}
+预期结果:10001
+实际结果:20207
+2019-08-14 16:26:16,259 case ERROR 用例执行失败 :: 10001 != 20207
+
+2019-08-14 16:26:16,959 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:26:16,959 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:16,960 case INFO 用例执行通过
+
+2019-08-14 16:26:17,939 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 16:26:17,939 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60947","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:26:17,939 case INFO 用例执行通过
+
+2019-08-14 16:26:17,983 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 16:32:22,954 case INFO -------------------充值模块测试用例开始执行-------------------
+2019-08-14 16:32:23,304 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:32:23,304 case INFO 用例执行通过
+
+2019-08-14 16:32:23,789 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":500000}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:32:23,863 case INFO 预期金额:17955000.0实际金额:17955000.0
+2019-08-14 16:32:23,863 case INFO 用例执行通过
+
+2019-08-14 16:32:23,938 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":1361176779,"amount":500000}
+预期结果:20109
+实际结果:20109
+2019-08-14 16:32:23,938 case INFO 用例执行通过
+
+2019-08-14 16:32:24,015 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"","amount":500000}
+预期结果:20103
+实际结果:20103
+2019-08-14 16:32:24,015 case INFO 用例执行通过
+
+2019-08-14 16:32:24,225 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":""}
+预期结果:20115
+实际结果:20115
+2019-08-14 16:32:24,226 case INFO 用例执行通过
+
+2019-08-14 16:32:24,439 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":500001}
+预期结果:20117
+实际结果:20117
+2019-08-14 16:32:24,439 case INFO 用例执行通过
+
+2019-08-14 16:32:24,479 case INFO -------------------充值模块测试用例结束执行-------------------
+2019-08-14 16:36:35,513 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 16:36:36,195 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:36:36,195 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:36:36,195 case INFO 用例执行通过
+
+2019-08-14 16:36:36,813 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 16:36:36,813 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:36:36,813 case INFO 用例执行通过
+
+2019-08-14 16:36:37,186 case INFO {"status":0,"code":"20207","data":null,"msg":"修改失败，当前标已经是该状态"}
+2019-08-14 16:36:37,186 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60949","status":"4"}
+预期结果:10001
+实际结果:20207
+2019-08-14 16:36:37,186 case ERROR 用例执行失败 :: 10001 != 20207
+
+2019-08-14 16:36:37,859 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:36:37,860 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:36:37,860 case INFO 用例执行通过
+
+2019-08-14 16:36:38,804 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 16:36:38,805 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60949","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:36:38,805 case INFO 用例执行通过
+
+2019-08-14 16:36:38,846 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 16:37:10,068 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 16:37:10,430 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:37:10,430 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:37:10,430 case INFO 用例执行通过
+
+2019-08-14 16:37:10,871 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 16:37:10,871 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:37:10,871 case INFO 用例执行通过
+
+2019-08-14 16:37:11,082 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 16:37:11,082 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60956","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:37:11,082 case INFO 用例执行通过
+
+2019-08-14 16:37:11,449 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:37:11,449 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:37:11,449 case INFO 用例执行通过
+
+2019-08-14 16:37:11,942 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 16:37:11,942 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60956","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:37:11,942 case INFO 用例执行通过
+
+2019-08-14 16:37:11,986 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 16:56:20,148 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 16:56:20,540 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 16:56:20,541 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 16:56:20,541 case INFO 用例执行通过
+
+2019-08-14 17:00:43,600 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 17:00:43,958 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:00:43,958 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:00:43,958 case INFO 用例执行通过
+
+2019-08-14 17:00:44,413 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:00:44,413 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:00:44,414 case INFO 用例执行通过
+
+2019-08-14 17:00:44,636 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 17:00:44,636 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60976","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:00:44,636 case INFO 用例执行通过
+
+2019-08-14 17:00:44,990 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:00:44,991 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:00:44,991 case INFO 用例执行通过
+
+2019-08-14 17:00:45,489 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 17:00:45,489 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60976","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:00:45,489 case INFO 用例执行通过
+
+2019-08-14 17:00:45,530 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 17:01:40,113 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 17:01:40,447 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:01:40,447 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:01:40,447 case INFO 用例执行通过
+
+2019-08-14 17:01:40,911 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:01:40,911 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:01:40,911 case INFO 用例执行通过
+
+2019-08-14 17:01:41,129 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 17:01:41,129 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60978","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:01:41,129 case INFO 用例执行通过
+
+2019-08-14 17:01:41,492 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:01:41,492 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:01:41,492 case INFO 用例执行通过
+
+2019-08-14 17:01:41,972 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 17:01:41,973 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60978","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:01:41,973 case INFO 用例执行通过
+
+2019-08-14 17:01:42,016 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 17:02:53,289 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 17:02:53,669 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:02:53,669 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:02:53,669 case INFO 用例执行通过
+
+2019-08-14 17:02:54,116 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:02:54,117 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:02:54,117 case INFO 用例执行通过
+
+2019-08-14 17:02:54,335 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 17:02:54,335 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60981","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:02:54,335 case INFO 用例执行通过
+
+2019-08-14 17:02:54,687 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:02:54,687 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:02:54,687 case INFO 用例执行通过
+
+2019-08-14 17:02:55,171 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 17:02:55,171 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60981","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:02:55,171 case INFO 用例执行通过
+
+2019-08-14 17:02:55,212 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 17:09:46,154 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 17:09:46,497 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:09:46,497 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:09:46,497 case INFO 用例执行通过
+
+2019-08-14 17:09:46,942 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:09:46,942 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:09:46,942 case INFO 用例执行通过
+
+2019-08-14 17:09:47,170 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 17:09:47,170 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60988","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:09:47,170 case INFO 用例执行通过
+
+2019-08-14 17:09:47,543 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:09:47,543 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:09:47,543 case INFO 用例执行通过
+
+2019-08-14 17:09:48,083 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 17:09:48,084 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60988","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:09:48,084 case INFO 用例执行通过
+
+2019-08-14 17:09:48,429 case INFO {"status":0,"code":"11003","data":null,"msg":"参数错误:所有参数都不能为空"}
+2019-08-14 17:09:48,430 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"","password":"test1234","loanId":"60988","amount":"5000"}
+预期结果:11003
+实际结果:11003
+2019-08-14 17:09:48,430 case INFO 用例执行通过
+
+2019-08-14 17:09:48,771 case INFO {"status":0,"code":"11009","data":null,"msg":"不存在该标的"}
+2019-08-14 17:09:48,771 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"0","amount":"5000"}
+预期结果:11005
+实际结果:11009
+2019-08-14 17:09:48,771 case ERROR 用例执行失败 :: 11005 != 11009
+
+2019-08-14 17:09:49,237 case INFO {"status":0,"code":"11007","data":null,"msg":"参数错误，投资金额必须是能被100整除的正整数"}
+2019-08-14 17:09:49,237 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60988","amount":"5001"}
+预期结果:11007
+实际结果:11007
+2019-08-14 17:09:49,237 case INFO 用例执行通过
+
+2019-08-14 17:09:49,710 case INFO {"status":0,"code":"11012","data":null,"msg":"该标可投金额不足，可投金额：995000.0"}
+2019-08-14 17:09:49,710 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60988","amount":"10000000"}
+预期结果:11012
+实际结果:11012
+2019-08-14 17:09:49,710 case INFO 用例执行通过
+
+2019-08-14 17:09:49,755 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 17:14:00,600 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 17:14:00,952 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:14:00,952 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:14:00,952 case INFO 用例执行通过
+
+2019-08-14 17:14:01,419 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:14:01,420 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:14:01,420 case INFO 用例执行通过
+
+2019-08-14 17:14:01,632 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 17:14:01,632 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60994","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:14:01,632 case INFO 用例执行通过
+
+2019-08-14 17:14:01,995 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:14:01,995 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:14:01,996 case INFO 用例执行通过
+
+2019-08-14 17:14:02,487 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 17:14:02,487 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60994","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:14:02,487 case INFO 用例执行通过
+
+2019-08-14 17:14:02,820 case INFO {"status":0,"code":"11003","data":null,"msg":"参数错误:所有参数都不能为空"}
+2019-08-14 17:14:02,821 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"","password":"test1234","loanId":"60994","amount":"5000"}
+预期结果:11003
+实际结果:11003
+2019-08-14 17:14:02,821 case INFO 用例执行通过
+
+2019-08-14 17:14:03,157 case INFO {"status":0,"code":"11009","data":null,"msg":"不存在该标的"}
+2019-08-14 17:14:03,157 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"0","amount":"5000"}
+预期结果:11009
+实际结果:11009
+2019-08-14 17:14:03,157 case INFO 用例执行通过
+
+2019-08-14 17:14:03,638 case INFO {"status":0,"code":"11007","data":null,"msg":"参数错误，投资金额必须是能被100整除的正整数"}
+2019-08-14 17:14:03,639 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60994","amount":"5001"}
+预期结果:11007
+实际结果:11007
+2019-08-14 17:14:03,639 case INFO 用例执行通过
+
+2019-08-14 17:14:04,106 case INFO {"status":0,"code":"11012","data":null,"msg":"该标可投金额不足，可投金额：995000.0"}
+2019-08-14 17:14:04,106 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60994","amount":"10000000"}
+预期结果:11012
+实际结果:11012
+2019-08-14 17:14:04,106 case INFO 用例执行通过
+
+2019-08-14 17:14:04,435 case INFO {"status":0,"code":"","data":null,"msg":"密码错误"}
+2019-08-14 17:14:04,617 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：审核通过，当前标为审核中状态"}
+2019-08-14 17:14:04,618 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60994","status":"1"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:14:04,618 case INFO 用例执行通过
+
+2019-08-14 17:14:05,105 case INFO {"status":0,"code":"11010","data":null,"msg":"该标不在竞标中状态，无法完成投标"}
+2019-08-14 17:14:05,105 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60994","amount":"5000"}
+预期结果:11010
+实际结果:11010
+2019-08-14 17:14:05,105 case INFO 用例执行通过
+
+2019-08-14 17:14:05,149 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 17:16:34,627 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 17:16:35,000 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:16:35,001 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:16:35,001 case INFO 用例执行通过
+
+2019-08-14 17:16:35,456 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:16:35,456 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:16:35,456 case INFO 用例执行通过
+
+2019-08-14 17:16:35,660 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 17:16:35,660 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60995","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:16:35,660 case INFO 用例执行通过
+
+2019-08-14 17:16:36,043 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:16:36,043 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:16:36,043 case INFO 用例执行通过
+
+2019-08-14 17:16:36,571 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 17:16:36,571 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60995","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:16:36,571 case INFO 用例执行通过
+
+2019-08-14 17:16:36,917 case INFO {"status":0,"code":"11003","data":null,"msg":"参数错误:所有参数都不能为空"}
+2019-08-14 17:16:36,917 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"","password":"test1234","loanId":"60995","amount":"5000"}
+预期结果:11003
+实际结果:11003
+2019-08-14 17:16:36,917 case INFO 用例执行通过
+
+2019-08-14 17:16:37,252 case INFO {"status":0,"code":"11009","data":null,"msg":"不存在该标的"}
+2019-08-14 17:16:37,252 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"0","amount":"5000"}
+预期结果:11009
+实际结果:11009
+2019-08-14 17:16:37,252 case INFO 用例执行通过
+
+2019-08-14 17:16:37,734 case INFO {"status":0,"code":"11007","data":null,"msg":"参数错误，投资金额必须是能被100整除的正整数"}
+2019-08-14 17:16:37,734 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60995","amount":"5001"}
+预期结果:11007
+实际结果:11007
+2019-08-14 17:16:37,735 case INFO 用例执行通过
+
+2019-08-14 17:16:38,215 case INFO {"status":0,"code":"11012","data":null,"msg":"该标可投金额不足，可投金额：995000.0"}
+2019-08-14 17:16:38,216 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60995","amount":"10000000"}
+预期结果:11012
+实际结果:11012
+2019-08-14 17:16:38,216 case INFO 用例执行通过
+
+2019-08-14 17:16:38,549 case INFO {"status":0,"code":"11008","data":null,"msg":"不存在该用户"}
+2019-08-14 17:16:38,549 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"1000000","password":"test1234","loanId":"60995","amount":"5000"}
+预期结果:11008
+实际结果:11008
+2019-08-14 17:16:38,549 case INFO 用例执行通过
+
+2019-08-14 17:16:38,775 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：审核通过，当前标为审核中状态"}
+2019-08-14 17:16:38,776 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"60995","status":"1"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:16:38,776 case INFO 用例执行通过
+
+2019-08-14 17:16:39,254 case INFO {"status":0,"code":"11010","data":null,"msg":"该标不在竞标中状态，无法完成投标"}
+2019-08-14 17:16:39,254 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"60995","amount":"5000"}
+预期结果:11010
+实际结果:11010
+2019-08-14 17:16:39,254 case INFO 用例执行通过
+
+2019-08-14 17:16:39,299 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-14 17:20:26,782 case INFO ------------------添加项目接口测试用例开始执行------------------
+2019-08-14 17:20:27,150 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:20:27,150 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+逾期结果:10001
+实际结果:10001
+2019-08-14 17:20:27,150 case INFO 用例执行通过
+
+2019-08-14 17:20:27,427 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:20:27,427 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:10001
+实际结果:10001
+2019-08-14 17:20:27,427 case INFO 用例执行通过
+
+2019-08-14 17:20:27,507 case INFO {"status":0,"code":"20109","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}
+2019-08-14 17:20:27,507 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":999999999999999,"title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20109
+实际结果:20109
+2019-08-14 17:20:27,507 case INFO 用例执行通过
+
+2019-08-14 17:20:27,591 case INFO {"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}
+2019-08-14 17:20:27,591 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20103
+实际结果:20103
+2019-08-14 17:20:27,591 case INFO 用例执行通过
+
+2019-08-14 17:20:27,673 case INFO {"status":0,"code":"20109","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}
+2019-08-14 17:20:27,673 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"1.1","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20104
+实际结果:20109
+2019-08-14 17:20:27,673 case ERROR 用例执行失败 :: 20104 != 20109
+
+2019-08-14 17:20:27,767 case INFO {"status":0,"code":"20105","data":null,"msg":"不存在该会员"}
+2019-08-14 17:20:27,767 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"10000000","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20105
+实际结果:20105
+2019-08-14 17:20:27,767 case INFO 用例执行通过
+
+2019-08-14 17:20:27,981 case INFO {"status":0,"code":"20106","data":null,"msg":"参数错误：借款金额amount必须为大于1000并能被100整除的正整数"}
+2019-08-14 17:20:27,982 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000001","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20106
+实际结果:20106
+2019-08-14 17:20:27,982 case INFO 用例执行通过
+
+2019-08-14 17:20:28,024 case INFO ------------------添加项目接口测试用例结束执行------------------
+2019-08-14 17:25:41,835 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-14 17:25:42,154 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"13820968531","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+实际结果:{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+2019-08-14 17:25:42,154 case INFO 用例执行通过
+
+2019-08-14 17:25:42,263 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"13611767797","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+实际结果:{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+2019-08-14 17:25:42,263 case INFO 用例执行通过
+
+2019-08-14 17:25:42,342 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":136117,"pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+实际结果:{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+2019-08-14 17:25:42,342 case INFO 用例执行通过
+
+2019-08-14 17:25:42,635 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"18837146289","pwd":"test12341111111111111","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20108","data":null,"msg":"密码长度必须为 6~18"}
+实际结果:{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+2019-08-14 17:25:42,635 case ERROR 用例执行失败 :: {"status":0,"code":"20108","data":null,"msg":"密码长度必须为 6~18"} != {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+
+2019-08-14 17:25:42,730 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+实际结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-08-14 17:25:42,731 case INFO 用例执行通过
+
+2019-08-14 17:25:42,776 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-14 17:27:28,073 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-14 17:27:28,379 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"15884375610","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+实际结果:{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+2019-08-14 17:27:28,379 case INFO 用例执行通过
+
+2019-08-14 17:27:28,476 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"13611767797","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+实际结果:{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+2019-08-14 17:27:28,476 case INFO 用例执行通过
+
+2019-08-14 17:27:28,561 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":136117,"pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+实际结果:{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+2019-08-14 17:27:28,561 case INFO 用例执行通过
+
+2019-08-14 17:27:28,840 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"13314860975","pwd":"test12341111111111111","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+实际结果:{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+2019-08-14 17:27:28,840 case INFO 用例执行通过
+
+2019-08-14 17:27:28,925 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+实际结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-08-14 17:27:28,925 case INFO 用例执行通过
+
+2019-08-14 17:27:28,971 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-14 17:27:28,971 case INFO -------------------登录模块测试用例开始执行-------------------
+2019-08-14 17:27:29,237 case INFO {"mobilephone":"18058931462","pwd":"test1234"}
+2019-08-14 17:27:29,291 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+逾期结果:{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+实际结果:{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:27:29,291 case INFO 用例执行通过
+
+2019-08-14 17:27:29,466 case INFO {"mobilephone":"18058931462","pwd":"test123"}
+2019-08-14 17:27:29,518 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test123"}
+逾期结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+实际结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-08-14 17:27:29,518 case INFO 用例执行通过
+
+2019-08-14 17:27:29,690 case INFO {"mobilephone":"","pwd":"test1234"}
+2019-08-14 17:27:29,727 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"","pwd":"test1234"}
+逾期结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+实际结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-08-14 17:27:29,727 case INFO 用例执行通过
+
+2019-08-14 17:27:29,898 case INFO {"mobilephone":"1361176779","pwd":"test1234"}
+2019-08-14 17:27:29,955 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"1361176779","pwd":"test1234"}
+逾期结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+实际结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-08-14 17:27:29,955 case INFO 用例执行通过
+
+2019-08-14 17:27:30,003 case INFO -------------------登录模块测试用例结束执行-------------------
+2019-08-14 17:27:30,003 case INFO -------------------充值模块测试用例开始执行-------------------
+2019-08-14 17:27:30,314 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:30,314 case INFO 用例执行通过
+
+2019-08-14 17:27:30,820 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":500000}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:30,895 case INFO 预期金额:18410000.0实际金额:18410000.0
+2019-08-14 17:27:30,896 case INFO 用例执行通过
+
+2019-08-14 17:27:30,976 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":1361176779,"amount":500000}
+预期结果:20109
+实际结果:20109
+2019-08-14 17:27:30,976 case INFO 用例执行通过
+
+2019-08-14 17:27:31,057 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"","amount":500000}
+预期结果:20103
+实际结果:20103
+2019-08-14 17:27:31,057 case INFO 用例执行通过
+
+2019-08-14 17:27:31,269 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":""}
+预期结果:20115
+实际结果:20115
+2019-08-14 17:27:31,269 case INFO 用例执行通过
+
+2019-08-14 17:27:31,498 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":500001}
+预期结果:20117
+实际结果:20117
+2019-08-14 17:27:31,498 case INFO 用例执行通过
+
+2019-08-14 17:27:31,544 case INFO -------------------充值模块测试用例结束执行-------------------
+2019-08-14 17:27:31,545 case INFO ------------------添加项目接口测试用例开始执行------------------
+2019-08-14 17:27:31,867 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:27:31,867 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+逾期结果:10001
+实际结果:10001
+2019-08-14 17:27:31,867 case INFO 用例执行通过
+
+2019-08-14 17:27:32,092 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:27:32,092 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:10001
+实际结果:10001
+2019-08-14 17:27:32,093 case INFO 用例执行通过
+
+2019-08-14 17:27:32,179 case INFO {"status":0,"code":"20109","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}
+2019-08-14 17:27:32,179 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":999999999999999,"title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20109
+实际结果:20109
+2019-08-14 17:27:32,180 case INFO 用例执行通过
+
+2019-08-14 17:27:32,262 case INFO {"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}
+2019-08-14 17:27:32,262 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20103
+实际结果:20103
+2019-08-14 17:27:32,262 case INFO 用例执行通过
+
+2019-08-14 17:27:32,348 case INFO {"status":0,"code":"20109","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}
+2019-08-14 17:27:32,349 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"1.1","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20109
+实际结果:20109
+2019-08-14 17:27:32,349 case INFO 用例执行通过
+
+2019-08-14 17:27:32,446 case INFO {"status":0,"code":"20105","data":null,"msg":"不存在该会员"}
+2019-08-14 17:27:32,446 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"10000000","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20105
+实际结果:20105
+2019-08-14 17:27:32,446 case INFO 用例执行通过
+
+2019-08-14 17:27:32,662 case INFO {"status":0,"code":"20106","data":null,"msg":"参数错误：借款金额amount必须为大于1000并能被100整除的正整数"}
+2019-08-14 17:27:32,663 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000001","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20106
+实际结果:20106
+2019-08-14 17:27:32,663 case INFO 用例执行通过
+
+2019-08-14 17:27:32,714 case INFO ------------------添加项目接口测试用例结束执行------------------
+2019-08-14 17:27:32,714 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-14 17:27:33,044 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:27:33,044 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:33,044 case INFO 用例执行通过
+
+2019-08-14 17:27:33,516 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-14 17:27:33,516 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:33,516 case INFO 用例执行通过
+
+2019-08-14 17:27:33,736 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-14 17:27:33,736 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"61004","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:33,737 case INFO 用例执行通过
+
+2019-08-14 17:27:34,123 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-14 17:27:34,123 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:34,123 case INFO 用例执行通过
+
+2019-08-14 17:27:34,658 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-14 17:27:34,658 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"61004","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:34,658 case INFO 用例执行通过
+
+2019-08-14 17:27:34,997 case INFO {"status":0,"code":"11003","data":null,"msg":"参数错误:所有参数都不能为空"}
+2019-08-14 17:27:34,997 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"","password":"test1234","loanId":"61004","amount":"5000"}
+预期结果:11003
+实际结果:11003
+2019-08-14 17:27:34,997 case INFO 用例执行通过
+
+2019-08-14 17:27:35,350 case INFO {"status":0,"code":"11009","data":null,"msg":"不存在该标的"}
+2019-08-14 17:27:35,350 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"0","amount":"5000"}
+预期结果:11009
+实际结果:11009
+2019-08-14 17:27:35,350 case INFO 用例执行通过
+
+2019-08-14 17:27:35,820 case INFO {"status":0,"code":"11007","data":null,"msg":"参数错误，投资金额必须是能被100整除的正整数"}
+2019-08-14 17:27:35,820 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"61004","amount":"5001"}
+预期结果:11007
+实际结果:11007
+2019-08-14 17:27:35,820 case INFO 用例执行通过
+
+2019-08-14 17:27:36,322 case INFO {"status":0,"code":"11012","data":null,"msg":"该标可投金额不足，可投金额：995000.0"}
+2019-08-14 17:27:36,322 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"61004","amount":"10000000"}
+预期结果:11012
+实际结果:11012
+2019-08-14 17:27:36,322 case INFO 用例执行通过
+
+2019-08-14 17:27:36,656 case INFO {"status":0,"code":"11008","data":null,"msg":"不存在该用户"}
+2019-08-14 17:27:36,656 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"1000000","password":"test1234","loanId":"61004","amount":"5000"}
+预期结果:11008
+实际结果:11008
+2019-08-14 17:27:36,656 case INFO 用例执行通过
+
+2019-08-14 17:27:36,887 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：审核通过，当前标为审核中状态"}
+2019-08-14 17:27:36,887 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"61004","status":"1"}
+预期结果:10001
+实际结果:10001
+2019-08-14 17:27:36,887 case INFO 用例执行通过
+
+2019-08-14 17:27:37,354 case INFO {"status":0,"code":"11010","data":null,"msg":"该标不在竞标中状态，无法完成投标"}
+2019-08-14 17:27:37,354 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"61004","amount":"5000"}
+预期结果:11010
+实际结果:11010
+2019-08-14 17:27:37,354 case INFO 用例执行通过
+
+2019-08-14 17:27:37,398 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-20 10:37:35,897 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 10:37:36,238 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"18004683795","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+实际结果:{"status":1,"code":"10001","data":null,"msg":"注册成功"}
+2019-08-20 10:37:36,238 case INFO 用例执行通过
+
+2019-08-20 10:37:36,335 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"13611767797","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+实际结果:{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+2019-08-20 10:37:36,335 case INFO 用例执行通过
+
+2019-08-20 10:37:36,411 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":136117,"pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+实际结果:{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+2019-08-20 10:37:36,411 case INFO 用例执行通过
+
+2019-08-20 10:37:36,707 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"13731609528","pwd":"test12341111111111111","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+实际结果:{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}
+2019-08-20 10:37:36,707 case INFO 用例执行通过
+
+2019-08-20 10:37:36,783 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/register
+请求参数:{"mobilephone":"","pwd":"test1234","regname":"前额有个旋"}
+逾期结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+实际结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-08-20 10:37:36,783 case INFO 用例执行通过
+
+2019-08-20 10:37:36,826 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 10:37:36,826 case INFO -------------------登录模块测试用例开始执行-------------------
+2019-08-20 10:37:37,092 case INFO {"mobilephone":"18058931462","pwd":"test1234"}
+2019-08-20 10:37:37,143 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+逾期结果:{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+实际结果:{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-20 10:37:37,143 case INFO 用例执行通过
+
+2019-08-20 10:37:37,355 case INFO {"mobilephone":"18058931462","pwd":"test123"}
+2019-08-20 10:37:37,415 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test123"}
+逾期结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+实际结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-08-20 10:37:37,415 case INFO 用例执行通过
+
+2019-08-20 10:37:37,590 case INFO {"mobilephone":"","pwd":"test1234"}
+2019-08-20 10:37:37,623 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"","pwd":"test1234"}
+逾期结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+实际结果:{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2019-08-20 10:37:37,623 case INFO 用例执行通过
+
+2019-08-20 10:37:37,797 case INFO {"mobilephone":"1361176779","pwd":"test1234"}
+2019-08-20 10:37:37,852 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"1361176779","pwd":"test1234"}
+逾期结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+实际结果:{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2019-08-20 10:37:37,852 case INFO 用例执行通过
+
+2019-08-20 10:37:37,904 case INFO -------------------登录模块测试用例结束执行-------------------
+2019-08-20 10:37:37,904 case INFO -------------------充值模块测试用例开始执行-------------------
+2019-08-20 10:37:38,223 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:38,223 case INFO 用例执行通过
+
+2019-08-20 10:37:38,746 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":500000}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:38,821 case INFO 预期金额:18905000.0实际金额:18905000.0
+2019-08-20 10:37:38,821 case INFO 用例执行通过
+
+2019-08-20 10:37:38,897 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":1361176779,"amount":500000}
+预期结果:20109
+实际结果:20109
+2019-08-20 10:37:38,897 case INFO 用例执行通过
+
+2019-08-20 10:37:38,975 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"","amount":500000}
+预期结果:20103
+实际结果:20103
+2019-08-20 10:37:38,976 case INFO 用例执行通过
+
+2019-08-20 10:37:39,182 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":""}
+预期结果:20115
+实际结果:20115
+2019-08-20 10:37:39,182 case INFO 用例执行通过
+
+2019-08-20 10:37:39,395 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/recharge
+请求参数:{"mobilephone":"18058931462","amount":500001}
+预期结果:20117
+实际结果:20117
+2019-08-20 10:37:39,396 case INFO 用例执行通过
+
+2019-08-20 10:37:39,440 case INFO -------------------充值模块测试用例结束执行-------------------
+2019-08-20 10:37:39,440 case INFO ------------------添加项目接口测试用例开始执行------------------
+2019-08-20 10:37:39,764 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-20 10:37:39,765 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+逾期结果:10001
+实际结果:10001
+2019-08-20 10:37:39,765 case INFO 用例执行通过
+
+2019-08-20 10:37:40,012 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-20 10:37:40,012 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:10001
+实际结果:10001
+2019-08-20 10:37:40,012 case INFO 用例执行通过
+
+2019-08-20 10:37:40,090 case INFO {"status":0,"code":"20109","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}
+2019-08-20 10:37:40,090 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":999999999999999,"title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20109
+实际结果:20109
+2019-08-20 10:37:40,090 case INFO 用例执行通过
+
+2019-08-20 10:37:40,166 case INFO {"status":0,"code":"20103","data":null,"msg":"所有参数不能为空"}
+2019-08-20 10:37:40,166 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20103
+实际结果:20103
+2019-08-20 10:37:40,166 case INFO 用例执行通过
+
+2019-08-20 10:37:40,245 case INFO {"status":0,"code":"20109","data":null,"msg":"请根据数值参数的类型对应输入合法的数字"}
+2019-08-20 10:37:40,245 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"1.1","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20109
+实际结果:20109
+2019-08-20 10:37:40,245 case INFO 用例执行通过
+
+2019-08-20 10:37:40,321 case INFO {"status":0,"code":"20105","data":null,"msg":"不存在该会员"}
+2019-08-20 10:37:40,321 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"10000000","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20105
+实际结果:20105
+2019-08-20 10:37:40,322 case INFO 用例执行通过
+
+2019-08-20 10:37:40,533 case INFO {"status":0,"code":"20106","data":null,"msg":"参数错误：借款金额amount必须为大于1000并能被100整除的正整数"}
+2019-08-20 10:37:40,533 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000001","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+逾期结果:20106
+实际结果:20106
+2019-08-20 10:37:40,533 case INFO 用例执行通过
+
+2019-08-20 10:37:40,579 case INFO ------------------添加项目接口测试用例结束执行------------------
+2019-08-20 10:37:40,579 case INFO -------------------投资接口测试用例开始执行-------------------
+2019-08-20 10:37:40,890 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-20 10:37:40,890 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"13916402783","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:40,890 case INFO 用例执行通过
+
+2019-08-20 10:37:41,366 case INFO {"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-20 10:37:41,366 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/add
+请求参数:{"memberId":"117514","title":"躺着把钱赚","amount":"1000000","loanRate":"18.0","loanTerm":"6","loanDateType":"0","repaymemtWay":"5","biddingDays":"8"}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:41,366 case INFO 用例执行通过
+
+2019-08-20 10:37:41,583 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-20 10:37:41,583 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"65024","status":"4"}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:41,583 case INFO 用例执行通过
+
+2019-08-20 10:37:41,983 case INFO {"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-20 10:37:41,983 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/login
+请求参数:{"mobilephone":"18058931462","pwd":"test1234"}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:41,983 case INFO 用例执行通过
+
+2019-08-20 10:37:42,501 case INFO {"status":1,"code":"10001","data":null,"msg":"竞标成功"}
+2019-08-20 10:37:42,502 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"65024","amount":"5000"}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:42,502 case INFO 用例执行通过
+
+2019-08-20 10:37:42,833 case INFO {"status":0,"code":"11003","data":null,"msg":"参数错误:所有参数都不能为空"}
+2019-08-20 10:37:42,833 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"","password":"test1234","loanId":"65024","amount":"5000"}
+预期结果:11003
+实际结果:11003
+2019-08-20 10:37:42,833 case INFO 用例执行通过
+
+2019-08-20 10:37:43,167 case INFO {"status":0,"code":"11009","data":null,"msg":"不存在该标的"}
+2019-08-20 10:37:43,167 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"0","amount":"5000"}
+预期结果:11009
+实际结果:11009
+2019-08-20 10:37:43,167 case INFO 用例执行通过
+
+2019-08-20 10:37:43,655 case INFO {"status":0,"code":"11007","data":null,"msg":"参数错误，投资金额必须是能被100整除的正整数"}
+2019-08-20 10:37:43,655 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"65024","amount":"5001"}
+预期结果:11007
+实际结果:11007
+2019-08-20 10:37:43,655 case INFO 用例执行通过
+
+2019-08-20 10:37:44,131 case INFO {"status":0,"code":"11012","data":null,"msg":"该标可投金额不足，可投金额：995000.0"}
+2019-08-20 10:37:44,131 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"65024","amount":"10000000"}
+预期结果:11012
+实际结果:11012
+2019-08-20 10:37:44,131 case INFO 用例执行通过
+
+2019-08-20 10:37:44,474 case INFO {"status":0,"code":"11008","data":null,"msg":"不存在该用户"}
+2019-08-20 10:37:44,474 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"1000000","password":"test1234","loanId":"65024","amount":"5000"}
+预期结果:11008
+实际结果:11008
+2019-08-20 10:37:44,474 case INFO 用例执行通过
+
+2019-08-20 10:37:44,705 case INFO {"status":1,"code":"10001","data":null,"msg":"更新状态成功：审核通过，当前标为审核中状态"}
+2019-08-20 10:37:44,705 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+请求参数:{"id":"65024","status":"1"}
+预期结果:10001
+实际结果:10001
+2019-08-20 10:37:44,705 case INFO 用例执行通过
+
+2019-08-20 10:37:45,188 case INFO {"status":0,"code":"11010","data":null,"msg":"该标不在竞标中状态，无法完成投标"}
+2019-08-20 10:37:45,188 case INFO 请求地址:http://tj.lemonban.com/futureloan/mvc/api/member/bidLoan
+请求参数:{"memberId":"117513","password":"test1234","loanId":"65024","amount":"5000"}
+预期结果:11010
+实际结果:11010
+2019-08-20 10:37:45,188 case INFO 用例执行通过
+
+2019-08-20 10:37:45,231 case INFO -------------------投资接口测试用例结束执行-------------------
+2019-08-20 18:44:02,031 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:44:02,573 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 18:45:25,874 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:46:50,415 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:49:18,407 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:49:19,069 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 18:49:40,664 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:51:54,954 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:51:55,647 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'client_ip': '127.0.0.1', 'mobile': '15863809721', 'tmpl_id': 1}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:51:55,647 case INFO 用例执行通过
+
+2019-08-20 18:51:55,647 case ERROR 用例执行失败'case_id'
+
+2019-08-20 18:51:55,649 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 18:52:26,952 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:52:27,746 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'client_ip': '127.0.0.1', 'mobile': '15890854761', 'tmpl_id': 1}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:52:27,746 case INFO 用例执行通过
+
+2019-08-20 18:52:27,746 case ERROR 用例执行失败'case_id'
+
+2019-08-20 18:52:27,748 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 18:53:40,734 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:53:41,434 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'client_ip': '127.0.0.1', 'mobile': '18090186543', 'tmpl_id': 1}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:55:23,384 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:55:24,027 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'client_ip': '127.0.0.1', 'mobile': '13768375012', 'tmpl_id': 1}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:55:54,634 case INFO 用例执行通过
+
+2019-08-20 18:56:22,280 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:56:22,918 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'client_ip': '127.0.0.1', 'mobile': '13732497185', 'tmpl_id': 1}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:56:22,918 case INFO 用例执行通过
+
+2019-08-20 18:56:59,011 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:56:59,610 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': None, 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': None, 'result': None}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:56:59,610 case INFO 用例执行通过
+
+2019-08-20 18:56:59,628 case ERROR 用例执行失败Cannot convert {'retCode': 0, 'retInfo': ok} to Excel
+
+2019-08-20 18:56:59,678 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 18:57:51,680 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:57:52,328 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': None, 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': None, 'result': None}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:57:52,329 case INFO 用例执行通过
+
+2019-08-20 18:59:21,214 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:59:29,483 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:59:52,970 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 18:59:53,628 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': None, 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': None, 'result': None}
+逾期结果:ok
+实际结果:{'retCode': 0, 'retInfo': ok}
+2019-08-20 18:59:53,628 case INFO 用例执行通过
+
+2019-08-20 18:59:53,673 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 19:01:27,032 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 19:01:27,667 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': None, 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'actual', 'result': 'PASS'}
+逾期结果:ok
+实际结果:ok
+2019-08-20 19:01:27,667 case INFO 用例执行通过
+
+2019-08-20 19:01:27,686 case ERROR 用例执行失败Cannot convert ok to Excel
+
+2019-08-20 19:01:27,707 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-20 19:01:46,665 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 19:02:12,635 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-20 19:02:13,263 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': None, 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'actual', 'result': 'PASS'}
+逾期结果:ok
+实际结果:ok
+2019-08-20 19:02:13,264 case INFO 用例执行通过
+
+2019-08-20 19:02:13,313 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-22 19:41:29,564 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-22 19:41:30,236 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-22 19:43:24,151 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-22 19:50:43,580 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-22 19:50:44,311 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-22 19:50:58,401 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-22 19:50:59,117 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS'}
+逾期结果:ok
+实际结果:ok
+2019-08-22 19:50:59,117 case INFO 用例执行通过
+
+2019-08-22 19:50:59,135 case ERROR 用例执行失败[Errno 13] Permission denied: 'C:\\Users\\cango\\WebserviceTest\\datas\\cases.xlsx'
+
+2019-08-22 19:50:59,187 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-22 19:51:11,860 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-22 19:51:12,565 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS'}
+逾期结果:ok
+实际结果:ok
+2019-08-22 19:51:12,565 case INFO 用例执行通过
+
+2019-08-22 19:51:12,612 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-22 19:52:04,270 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-23 16:43:47,546 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-23 16:43:48,198 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS'}
+逾期结果:ok
+实际结果:ok
+2019-08-23 16:43:48,198 case INFO 用例执行通过
+
+2019-08-23 16:43:48,554 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-23 16:45:54,254 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-23 17:34:49,028 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-23 17:34:49,618 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS', 'check_sql': 'SELECT fverify_code FROM sms_db_56.t_mvcode_info_4 WHERE fmobile = ${unregister_phone}'}
+逾期结果:ok
+实际结果:ok
+2019-08-23 17:34:49,618 case INFO 用例执行通过
+
+2019-08-23 17:34:49,977 case INFO -------------------注册模块测试用例结束执行-------------------

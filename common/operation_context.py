@@ -18,6 +18,7 @@ class OperationContext:
     lender_memberid_pattern = do_conifg.get_value(section="PARAMETER", option="lender_memberid")
     loan_id_pattern = do_conifg.get_value(section="PARAMETER", option="loan_id")
     verify_code_pattern = do_conifg.get_value(section="PARAMETER", option="verify_code")
+    send_code_phone_pattern = do_conifg.get_value(section="PARAMETER", option="send_code_phone")
 
     @classmethod
     def unregister_phone_replace(cls, data):
@@ -146,6 +147,20 @@ class OperationContext:
         return data
 
     @classmethod
+    def send_code_phone_replace(cls, data):
+        """
+        项目ID的参数替换,如果从参数中匹配到模式字符串，则替换，否则不替换
+        :param data:原始字符串，data中的data值
+        :return:
+        """
+        if re.search(pattern=cls.send_code_phone_pattern, string=data):
+            do_mysql = OperationMysql()
+            send_code_phone = OperationContext.send_code_phone
+            data = re.sub(pattern=cls.send_code_phone_pattern, repl=send_code_phone, string=data)
+            do_mysql.close_db()
+        return data
+
+    @classmethod
     def register_parameterization(cls, data):
         """
         注册模块用例参数化
@@ -156,6 +171,7 @@ class OperationContext:
         data = cls.register_phone_replace(data)
         data = cls.lender_pwd_replace(data)
         data = cls.verify_code_replace(data)
+        data = cls.send_code_phone_replace(data)
         return data
 
     @classmethod

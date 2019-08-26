@@ -29,16 +29,22 @@ class TestRegister(unittest.TestCase):
     def test_register(self, data):
         url = do_conifg.get_value(section="API", option="url1")+data["url"]
         expect = data["expected"]
+
+        data = json.dumps(data)
+        form_data = self.do_context.register_parameterization(data)
+        data = json.loads(form_data)
         check_sql = data["check_sql"]
-        form_data = self.do_context.register_parameterization(data["data"])
         form_data = json.loads(form_data)
-        actual = do_request.send_request(url=url, method=data["method"], data=form_data)
+        actual = do_request.send_request(url=url, method=data["method"], data=json.loads(form_data["data"]))
         actual = dict(actual)
         actual = str(actual["retInfo"])
         if check_sql:
-            check_sql = self.do_context.register_parameterization(check_sql)
+            # OperationContext.mobile = str(form_data["mobile"])
+            # check_sql = self.do_context.register_parameterization(check_sql)
             mysql_data = self.do_sql.get_value(sql=check_sql)
             OperationContext.verify_code = str(mysql_data["fverify_code"])
+            OperationContext.send_code_phone = json.loads(form_data["data"])["mobile"]
+            print(json.loads(form_data["data"])["mobile"])
 
         log.info(f"请求地址:{url}\n请求参数:{data}\n逾期结果:{expect}\n实际结果:{actual}")
         try:

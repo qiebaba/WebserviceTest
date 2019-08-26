@@ -6,6 +6,7 @@ from common.operation_context import OperationContext
 from common.constans import EXCEL_DIR
 from common.operation_config import do_conifg
 from common.operation_webservice import do_request
+from common.operation_mysql import OperationMysql
 import json
 
 
@@ -14,6 +15,7 @@ class TestRegister(unittest.TestCase):
     oe = operation_excel.OperationExcel(EXCEL_DIR, sheet_name="userRegister")
     test_data = oe.get_data()
     do_context = OperationContext()
+    do_sql = OperationMysql()
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -27,11 +29,17 @@ class TestRegister(unittest.TestCase):
     def test_register(self, data):
         url = do_conifg.get_value(section="API", option="url1")+data["url"]
         expect = data["expected"]
+        check_sql = data["check_sql"]
         form_data = self.do_context.register_parameterization(data["data"])
         form_data = json.loads(form_data)
         actual = do_request.send_request(url=url, method=data["method"], data=form_data)
         actual = dict(actual)
         actual = str(actual["retInfo"])
+        if check_sql:
+            check_sql = self.do_context.register_parameterization(check_sql)
+            mysql_data = self.do_sql.get_value(sql=check_sql)
+            OperationContext.verify_code = str(mysql_data["fverify_code"])
+
         log.info(f"请求地址:{url}\n请求参数:{data}\n逾期结果:{expect}\n实际结果:{actual}")
         try:
             self.assertEqual(expect, actual)

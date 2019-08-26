@@ -155,6 +155,7 @@ class OperationContext:
         data = cls.unregister_phone_replace(data)
         data = cls.register_phone_replace(data)
         data = cls.lender_pwd_replace(data)
+        data = cls.verify_code_replace(data)
         return data
 
     @classmethod

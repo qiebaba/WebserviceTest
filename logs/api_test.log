@@ -1235,3 +1235,48 @@
 2019-08-23 17:34:49,618 case INFO 用例执行通过
 
 2019-08-23 17:34:49,977 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 15:14:31,105 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 15:14:31,703 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS', 'check_sql': 'SELECT fverify_code FROM sms_db_56.t_mvcode_info_4 WHERE fmobile = ${unregister_phone}'}
+逾期结果:ok
+实际结果:ok
+2019-08-26 15:14:31,703 case INFO 用例执行通过
+
+2019-08-26 15:14:32,091 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 15:15:40,798 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 15:17:10,489 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.1","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS', 'check_sql': 'SELECT fverify_code FROM sms_db_56.t_mvcode_info_4 WHERE fmobile = ${unregister_phone}'}
+逾期结果:ok
+实际结果:ok
+2019-08-26 15:17:13,189 case INFO 用例执行通过
+
+2019-08-26 16:47:19,357 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 16:47:20,423 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 16:48:12,149 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 16:49:05,483 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 16:49:06,482 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 16:49:50,905 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 16:49:51,507 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/sms-service-war-1.0/ws/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.2","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS', 'check_sql': 'SELECT fverify_code FROM sms_db_56.t_mvcode_info_4 WHERE fmobile = ${unregister_phone}'}
+逾期结果:ok
+实际结果:ok
+2019-08-26 16:49:51,507 case INFO 用例执行通过
+
+2019-08-26 16:49:52,080 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 17:35:02,387 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 17:35:11,799 case INFO 请求地址:http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+请求参数:{'case_id': 1, 'title': '发送验证码成功', 'method': 'sendMCode', 'url': '/sms-service-war-1.0/ws/smsFacade.ws?wsdl', 'data': '{"client_ip":"127.0.0.2","mobile":"${unregister_phone}","tmpl_id": 1}', 'expected': 'ok', 'actual': 'ok', 'result': 'PASS', 'check_sql': 'SELECT fverify_code FROM sms_db_56.t_mvcode_info_4 WHERE fmobile = ${unregister_phone}'}
+逾期结果:ok
+实际结果:ok
+2019-08-26 17:35:13,489 case INFO 用例执行通过
+
+2019-08-26 17:47:17,131 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 17:47:18,349 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 17:47:57,690 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 17:47:58,880 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 17:49:00,451 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 17:49:01,732 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 17:50:21,429 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 17:50:22,720 case INFO -------------------注册模块测试用例结束执行-------------------
+2019-08-26 17:54:03,768 case INFO -------------------注册模块测试用例开始执行-------------------
+2019-08-26 17:56:58,898 case INFO -------------------注册模块测试用例开始执行-------------------
